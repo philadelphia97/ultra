@@ -2,13 +2,13 @@ import Link from "next/link";
 
 const Navbar = () => {
     return(
-        <nav>
+        <nav className="nav">
             <div>
                 <h1>Phils Music Depot</h1>
             </div>
-            <Link href="/"><a>Index</a></Link>
-            <Link href="/"><a>Home</a></Link>
-            <Link href="/"><a>Stock</a></Link>
+            <Link href="/">Main</Link>
+            <Link href="/home">Home</Link>
+            <Link href="/stock">Stock</Link>
         </nav>
     )
 }
