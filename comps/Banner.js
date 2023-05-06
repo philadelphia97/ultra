@@ -31,7 +31,6 @@ const Banner = () => {
         <div className="banner">
         <div className="leftArrow" onClick={goToPrevious}>&#x2039;</div>
         <h1 className="banner">{`check out our ${slides[currentIndex].title}`}</h1>
-        {console.log(slides[0])}
         <div className="rightArrow" onClick={goToNext}>&#x203A;</div>
         </div>
     )

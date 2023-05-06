@@ -8,19 +8,25 @@
 .banner {
   display: flex;
   flex-direction: row;
-  align-items: baseline;
   justify-content: space-around;
+  align-items: center;
   background-color: #CC5221;
 }
 
-
+.search {
+  width: 400px;
+}
 
 .nav {
     display: flex;
     flex-direction: row;
     align-items: baseline;
     justify-content: space-around;
+    text-decoration: none;
+}
 
+.nav a {
+  text-decoration: none;
 }
 
 .leftArrow{
@@ -28,8 +34,9 @@
   font-size: 35px;
   color:white;
   cursor: pointer; 
-  flex-direction: row;
-  align-items: flex-start;
+  position: absolute;
+  left: 250px;
+  
 }
 
 .rightArrow{
@@ -37,6 +44,26 @@
   font-size: 35px;
   color: white;
   cursor: pointer; 
+  position: absolute;
+  right: 250px;
+}
+
+.pageContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.panelContainer {
+  display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  
+}
+
+.panelContainer div {
+  
+  padding: 100px;
+  border: 2px solid black;
 }
