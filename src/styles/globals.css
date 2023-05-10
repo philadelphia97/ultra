@@ -57,13 +57,17 @@
 }
 
 .panelContainer {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  width: min(95%, 70rem);
+  height: 550px;
   
 }
 
 .panelContainer div {
   
-  padding: 100px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   border: 2px solid black;
 }
